@@ -1,0 +1,24 @@
+# 客户数据 / 密钥 / 本地产物，绝不提交
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+data/
+customers/
+leads/
+backups/
+output/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+
+# 真实客户线索数据（含真实企业/邮箱），绝不提交到公开仓库
+examples/*-demo.csv
+examples/*-leads*.csv
+examples/*-outreach-drafts*.md
+examples/*-drafts*.md
+
